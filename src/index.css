@@ -17,11 +17,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  /* color: #646cff; */
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  /* color: #535bf2; */
 }
 
 body {
@@ -49,7 +49,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  /* border-color: #646cff; */
 }
 button:focus,
 button:focus-visible {
@@ -62,9 +62,50 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #0a0d38;
   }
   button {
     background-color: #f9f9f9;
   }
+}
+
+/* CSS exercicio */
+
+nav {
+  text-align: center;
+  background-color: #797979;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin: 0;
+  padding: auto;
+}
+
+.container {
+  background-color: rgb(170, 86, 86);
+  margin: 0;
+  padding: 0;
+}
+
+.conteudo {
+  text-align: center;
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  background-color: rgb(175, 175, 67);
+}
+
+h2 {
+  font-size: 18px;
+  color: #213547;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
 }
